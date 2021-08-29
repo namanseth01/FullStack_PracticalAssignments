@@ -8,6 +8,8 @@
 }
 
 .card {
-  width: 19%;
-  height: 35%;
+  height: auto;
+  overflow: hidden;
+  width: 22%;
+  background-color: whitesmoke;
 }
