@@ -28,6 +28,9 @@
 }
 
 .btn {
-  background-color: orangered;
+  background-color: orange;
   text-align: center;
+  color: white;
+  border-radius: 5%;
+  text-decoration: none;
 }
