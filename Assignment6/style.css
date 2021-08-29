@@ -9,7 +9,7 @@
 
 .card {
   height: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 23%;
   background-color: whitesmoke;
   border: black;
