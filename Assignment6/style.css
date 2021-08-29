@@ -13,3 +13,9 @@
   width: 22%;
   background-color: whitesmoke;
 }
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
