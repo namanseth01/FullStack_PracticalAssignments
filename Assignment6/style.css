@@ -9,7 +9,7 @@
 
 .card {
   height: auto;
-  /* overflow: hidden; */
+  overflow: hidden;
   width: 23%;
   background-color: whitesmoke;
   border: black;
@@ -29,7 +29,12 @@
 }
 
 .card h3 {
+  font-size: 1.7vw;
   text-align: center;
+}
+
+p {
+  font-size: 1vw;
 }
 
 .btn {
@@ -37,7 +42,7 @@
   text-align: center;
   color: white;
   border-radius: 10%;
-  font-size: 17px;
+  font-size: 1.5rem;
   width: 86%;
   margin-left: 7%;
   height: 30px;
