@@ -7,4 +7,6 @@
 }
 
 .banner {
+  height: 100vh;
+  top: auto;
 }
