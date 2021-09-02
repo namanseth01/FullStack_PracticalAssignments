@@ -17,3 +17,26 @@ h1 {
   text-align: center;
   padding: 25px 0px;
 }
+
+#header {
+  background-color: grey;
+  height: 100px;
+  /* border-radius: 15px; */
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+}
+
+#banner {
+  height: 680px;
+  margin-bottom: 15px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+}
