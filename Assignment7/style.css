@@ -7,6 +7,8 @@
 }
 
 .banner {
-  height: 100vh;
-  top: auto;
+  height: 100%;
+  margin-top: -25px;
+  background-color: skyblue;
+  line-height: 100%;
 }
