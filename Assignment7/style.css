@@ -40,3 +40,26 @@ h1 {
   font-size: 40px;
   color: white;
 }
+
+#circle-container {
+  /* border: solid red; */
+  width: 100%;
+  margin: 15px auto;
+}
+#circle-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.circle {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: goldenrod;
+  float: left;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
