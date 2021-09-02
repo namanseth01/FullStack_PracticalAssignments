@@ -83,7 +83,7 @@ h1 {
 }
 
 #footer {
-  background-color: plum;
+  background-color: gray;
   height: 100px;
   display: flex;
   justify-content: center;
