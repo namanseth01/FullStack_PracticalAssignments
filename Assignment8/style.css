@@ -243,12 +243,12 @@ html {
   margin-bottom: 10px;
 }
 
-.grid > h4 {
+.grid h4 {
   margin: 0px 10px;
   text-align: center;
 }
 
-.grid > p {
+.grid p {
   margin: 10px;
   font-size: 15px;
   text-align: justify;
@@ -256,7 +256,7 @@ html {
   color: white;
 }
 
-.grid > a {
+.grid a {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -283,7 +283,7 @@ h1 {
   height: 100px;
 }
 
-#footer > p {
+#footer p {
   font-size: 16px;
   color: black;
   text-align: center;
