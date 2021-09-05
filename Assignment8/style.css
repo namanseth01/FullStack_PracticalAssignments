@@ -140,13 +140,13 @@ html {
   font-size: 30px;
 }
 
-#sec2-container::after {
+.sec2-container::after {
   content: "";
   display: block;
   clear: both;
 }
 
-#left-side {
+.left-side {
   width: 50%;
   height: 550px;
   background-color: gray;
