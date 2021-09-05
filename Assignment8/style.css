@@ -98,33 +98,30 @@ html {
   color: black;
 }
 
-#banner {
+.banner {
   margin-top: 70px;
   height: 680px;
   margin-bottom: 15px;
   display: flex;
   font-size: 40px;
   color: white;
-}
-
-#banner {
   background-image: url(../assets/Assignment8\ banner1.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#banner h2 {
+.banner h2 {
   margin: 20px 20px;
   color: #fff;
 }
 
-#circle-container {
+.circle-container {
   width: 100%;
   margin: 15px auto;
   height: 100vh;
 }
 
-#circle-container::after {
+.circle-container::after {
   content: "";
   display: block;
   clear: both;
