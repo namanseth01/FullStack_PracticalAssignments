@@ -100,7 +100,7 @@ html {
 
 .banner {
   margin-top: 70px;
-  height: 680px;
+  height: 100vh;
   margin-bottom: 15px;
   display: flex;
   font-size: 40px;
@@ -138,6 +138,10 @@ html {
   justify-content: center;
   align-items: center;
   font-size: 30px;
+}
+
+.section {
+  height: 100vh;
 }
 
 .section::after {
