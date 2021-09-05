@@ -250,6 +250,7 @@ h1 {
   text-align: center;
   border-radius: 15px;
   margin-right: 3%;
+  flex-shrink: 0;
 }
 
 .card img {
@@ -290,5 +291,6 @@ a {
 }
 
 .container1 {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
 }
