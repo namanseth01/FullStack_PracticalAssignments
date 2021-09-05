@@ -262,12 +262,12 @@ h1 {
   background-color: blue;
 }
 
-#footer {
+.footer {
   background-color: plum;
   height: 100px;
 }
 
-#footer p {
+.footer p {
   font-size: 16px;
   color: black;
   text-align: center;
