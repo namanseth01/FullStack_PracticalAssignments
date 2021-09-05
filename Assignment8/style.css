@@ -202,13 +202,13 @@ html {
   background-repeat: no-repeat;
 }
 
-#grid-container {
+.grid-container {
   width: 100%;
   margin: 15px auto;
   height: 100vh;
 }
 
-#grid-container::after {
+.grid-container::after {
   content: "";
   display: block;
   clear: both;
@@ -258,11 +258,10 @@ h1 {
   padding: 25px 0px;
 }
 
-.grid > a:hover {
+.grid a:hover {
   background-color: blue;
 }
 
-/* -------Footer Section ------- */
 #footer {
   background-color: plum;
   height: 100px;
