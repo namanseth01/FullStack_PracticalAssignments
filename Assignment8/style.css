@@ -143,8 +143,6 @@ html {
   font-size: 30px;
 }
 
-/* -------------About Us-------------- */
-
 #sec2-container::after {
   content: "";
   display: block;
