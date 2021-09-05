@@ -16,6 +16,7 @@
 .menu li {
   line-height: 70px;
   display: inline-block;
+  text-align: center;
 }
 .menu li a {
   display: block;
