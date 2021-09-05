@@ -187,19 +187,19 @@ html {
   overflow: hidden;
 }
 
-#p1 {
+#project1 {
   background-image: url(https://imgur.com/JyMz0CR.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#p2 {
+#project2 {
   background-image: url(https://imgur.com/GFLWoXM.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#p3 {
+#project3 {
   background-image: url(https://imgur.com/uzmZqZA.jpg);
   background-size: cover;
   background-repeat: no-repeat;
