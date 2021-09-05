@@ -8,10 +8,17 @@
   content: "";
   display: block;
   clear: both;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
 }
 .menu {
   list-style: none;
   float: right;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .menu li {
   line-height: 70px;
