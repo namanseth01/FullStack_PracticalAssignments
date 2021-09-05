@@ -140,7 +140,7 @@ html {
   font-size: 30px;
 }
 
-.sec2-container::after {
+.section::after {
   content: "";
   display: block;
   clear: both;
