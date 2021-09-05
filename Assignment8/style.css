@@ -13,7 +13,6 @@
   align-items: center;
   display: flex;
   text-align: center;
-  margin: 0px auto;
 }
 
 .menu {
@@ -23,14 +22,12 @@
   align-items: center;
   display: flex;
   text-align: center;
-  margin: 0px auto;
 }
 
 .menu li {
   line-height: 70px;
   display: inline-block;
   text-align: center;
-  margin: 0px auto;
 }
 
 .menu li a {
@@ -55,7 +52,7 @@ html {
 .container {
   width: 100%;
   max-width: 1200px;
-  padding-top: 15px;
+  padding: 15px;
   margin: 0px auto;
 }
 
@@ -244,12 +241,12 @@ h1 {
 .card {
   height: auto;
   overflow: hidden;
-  width: 22.73%;
+  width: 22.5%;
   background-color: whitesmoke;
   border: black;
   border-width: 2px;
   border-style: solid;
-  padding: 7px 7px 7px 7px;
+  padding: 10px 10px 10px 10px;
   text-align: center;
   border-radius: 15px;
   margin-right: 3%;
@@ -279,7 +276,7 @@ p {
   border-radius: 10%;
   font-size: 1.5rem;
   width: 86%;
-  margin-left: 3%;
+  margin-left: 7%;
   height: 30px;
   font-size: 22px;
   margin-top: 50px;
