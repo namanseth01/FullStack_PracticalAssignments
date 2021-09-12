@@ -52,9 +52,9 @@ html {
   background-color: white;
 }
 
-.show-btn,
-.hide-btn,
-#chk {
+.show,
+.hide,
+#icon {
   font-size: 30px;
   line-height: 70px;
   color: white;
@@ -273,9 +273,9 @@ a {
     width: 100%;
   }
 
-  .show-btn,
-  .hide-btn,
-  #chk {
+  .show,
+  .hide,
+  #icon {
     font-size: 30px;
     line-height: 70px;
     color: white;
@@ -435,7 +435,7 @@ a {
     height: 70px;
   }
 
-  .show-btn {
+  .show {
     display: block;
   }
 
@@ -459,11 +459,11 @@ a {
     display: block;
   }
 
-  #chk:checked ~ .menu {
+  #icon:checked ~ .menu {
     right: 0;
   }
 
-  .hide-btn {
+  .hide {
     display: block;
     position: absolute;
     right: 20px;
@@ -582,7 +582,7 @@ a {
       min-width: 320px;
     }
 
-    .show-btn {
+    .show {
       display: block;
     }
 
@@ -606,11 +606,11 @@ a {
       display: block;
     }
 
-    #chk:checked ~ .menu {
+    #icon:checked ~ .menu {
       right: 0;
     }
 
-    .hide-btn {
+    .hide {
       display: block;
       position: absolute;
       right: 20px;
