@@ -53,7 +53,8 @@ html {
 }
 
 .show-btn,
-.hide-btn {
+.hide-btn,
+#chk {
   font-size: 30px;
   line-height: 70px;
   color: white;
@@ -273,7 +274,8 @@ a {
   }
 
   .show-btn,
-  .hide-btn {
+  .hide-btn,
+  #chk {
     font-size: 30px;
     line-height: 70px;
     color: white;
