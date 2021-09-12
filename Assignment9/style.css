@@ -5,51 +5,104 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#navBar {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+/* 
+    --Resolve Position Fixed Issue-- 
+                    & 
+      ----------Smooth Scroll ------ 
+    */
+
+html {
+  scroll-padding-top: 70px;
+  scroll-behavior: smooth;
 }
 
-#navBar a {
-  text-transform: uppercase;
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ------Header Container-------- */
+
+#header {
+  background-color: grey;
+  width: 100%;
+  height: 70px;
+  max-width: 1200px;
+  position: fixed;
+  top: 0;
+  height: 70px;
+}
+
+/* Navigation Menu  */
+.menu {
+  list-style: none;
+  float: right;
+  padding: 0 20px;
+}
+
+.menu li {
   display: inline-block;
-  padding: 10px 40px;
+  line-height: 70px;
+}
+
+.menu li a {
+  transition: 0.4s;
+  display: block;
   text-decoration: none;
   color: white;
-  font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 20px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
-#navBar a:hover {
-  background-color: white;
+.menu li a:hover {
   color: black;
+  background-color: white;
 }
 
-.banner {
-  margin-top: 70px;
-  height: 100vh;
+.show-btn,
+.hide-btn,
+#chk {
+  font-size: 30px;
+  line-height: 70px;
+  color: white;
+  display: none;
+  float: right;
+  padding-right: 20px;
+}
+
+/* ------------------Banner ------------- */
+
+#banner {
+  width: 100%;
+  margin-top: 90px;
+  height: 680px;
   margin-bottom: 15px;
   display: flex;
   font-size: 40px;
   color: white;
-  background-image: url(../assets/Assignment8\ banner1.jpg);
+}
+
+#banner {
+  background-image: url(https://imgur.com/qIxEnMl.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.banner h2 {
+#banner h2 {
   margin: 20px 20px;
   color: #fff;
 }
 
-.circle-container {
+/* ------- Team Members ----- */
+
+#circle-container {
   width: 100%;
   margin: 15px auto;
-  height: 100vh;
 }
 
-.circle-container::after {
+#circle-container::after {
   content: "";
   display: block;
   clear: both;
@@ -68,17 +121,14 @@
   font-size: 30px;
 }
 
-.section {
-  height: 100vh;
-}
-
-.section::after {
+/* -------------About Us-------------- */
+#sec2-container::after {
   content: "";
   display: block;
   clear: both;
 }
 
-.left-side {
+#left-side {
   width: 50%;
   height: 550px;
   background-color: gray;
@@ -86,97 +136,25 @@
   color: #fff;
 }
 
-.projects h2 {
+#left-p > h2 {
   text-align: left;
   margin: 10px 5px;
 }
 
-.projects p {
+#left-p > p {
   font-size: 20px;
   padding: 10px;
   text-align: justify;
   line-height: 28px;
 }
 
-.right-side {
+#right-side {
   width: 48%;
   height: 550px;
   float: right;
 }
 
-.header {
-  content: "";
-  display: block;
-  clear: both;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  text-align: center;
-}
-
-.menu {
-  list-style: none;
-  float: right;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  text-align: center;
-}
-
-.menu li {
-  line-height: 70px;
-  display: inline-block;
-  text-align: center;
-}
-
-.menu li a {
-  display: block;
-  text-decoration: none;
-  color: white;
-  padding: 0px 20px;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-
-.menu li a:hover {
-  color: black;
-  background-color: white;
-}
-
-html {
-  scroll-padding-top: 70px;
-  scroll-behavior: smooth;
-}
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  padding: 15px;
-  margin: 0px auto;
-}
-
-.show-btn,
-.hide-btn {
-  font-size: 30px;
-  line-height: 70px;
-  color: white;
-
-  display: none;
-}
-
-.header {
-  width: 1175px;
-  background-color: grey;
-  position: fixed;
-  top: 0;
-  height: 70px;
-  padding: 0px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.article {
+.artical {
   height: 31%;
   margin-bottom: 20px;
   background-color: chocolate;
@@ -188,34 +166,72 @@ html {
   overflow: hidden;
 }
 
-#project1 {
-  background-image: url(../assets/Assignment8\ project1.jpg);
+#p1 {
+  background-image: url(https://imgur.com/JyMz0CR.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#project2 {
-  background-image: url(../assets/Assignment8\ project2.jpeg);
+#p2 {
+  background-image: url(https://imgur.com/GFLWoXM.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#project3 {
-  background-image: url(../assets/Assignment8\ project3.jpg);
+#p3 {
+  background-image: url(https://imgur.com/uzmZqZA.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.grid-container {
+/* --------- Technologies Used------------ */
+#grid-container {
   width: 100%;
   margin: 15px auto;
-  height: 100vh;
 }
 
-.grid-container::after {
+#grid-container::after {
   content: "";
   display: block;
   clear: both;
+}
+
+.grid {
+  width: 20%;
+  float: left;
+  margin-left: 50px;
+  background-color: lightgrey;
+  border-radius: 8px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.grid > img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.grid > h4 {
+  margin: 0px 10px;
+  text-align: center;
+}
+
+.grid > p {
+  margin: 10px;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 25px;
+  color: white;
+}
+
+.grid > a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  background-color: red;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 h1 {
@@ -225,79 +241,25 @@ h1 {
   padding: 25px 0px;
 }
 
-.footer {
+.grid > a:hover {
+  background-color: blue;
+}
+
+/* -------Footer Section ------- */
+#footer {
   background-color: plum;
   height: 100px;
 }
 
-.footer p {
+#footer > p {
   font-size: 16px;
   color: black;
   text-align: center;
   padding: 20px;
 }
 
-.heading {
-  color: white;
-  text-align: center;
-}
-
-.card {
-  height: auto;
-  overflow: hidden;
-  width: 260px;
-  background-color: whitesmoke;
-  border: black;
-  border-width: 2px;
-  border-style: solid;
-  padding: 10px 10px 10px 10px;
-  text-align: center;
-  border-radius: 15px;
-  margin-right: 3%;
-  flex-shrink: 0;
-}
-
-.card img {
-  object-fit: cover;
-  width: 100%;
-  height: 40%;
-  border-radius: 10%;
-}
-
-.card h3 {
-  font-size: 1.7vw;
-  text-align: center;
-}
-
-p {
-  font-size: 1vw;
-}
-
-.btn {
-  background-color: orange;
-  text-align: center;
-  color: white;
-  border-radius: 10%;
-  font-size: 1.5rem;
-  width: 86%;
-  margin-left: 7%;
-  height: 30px;
-  font-size: 22px;
-  margin-top: 50px;
-}
-
-.btn:hover {
-  background-color: blue;
-}
-
-a {
-  text-decoration: none;
-}
-
-.container1 {
-  display: flex;
-  flex-wrap: wrap;
-}
+/* 1. First Break-point */
+/* 801px - 1199px */
 
 @media (min-width: 801px) and (max-width: 1199px) {
   .menu {
@@ -329,7 +291,7 @@ a {
     scroll-behavior: smooth;
   }
 
-  .container {
+  #container {
     width: 100%;
   }
 
@@ -737,7 +699,7 @@ a {
   @media (max-width: 625px) {
     /* Set container to min-width of 320px */
 
-    .container {
+    #container {
       min-width: 320px;
     }
 
