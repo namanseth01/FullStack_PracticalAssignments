@@ -85,7 +85,7 @@ html {
 }
 
 .banner {
-  background-image: url(https://imgur.com/qIxEnMl.jpg);
+  background-image: url(../assets/Assignment8\ banner1.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -148,13 +148,13 @@ html {
   line-height: 28px;
 }
 
-#right-side {
+.right-side {
   width: 48%;
   height: 550px;
   float: right;
 }
 
-.artical {
+.article {
   height: 31%;
   margin-bottom: 20px;
   background-color: chocolate;
@@ -166,83 +166,80 @@ html {
   overflow: hidden;
 }
 
-#p1 {
+#project1 {
   background-image: url(https://imgur.com/JyMz0CR.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#p2 {
+#project2 {
   background-image: url(https://imgur.com/GFLWoXM.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#p3 {
+#project3 {
   background-image: url(https://imgur.com/uzmZqZA.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 /* --------- Technologies Used------------ */
-#grid-container {
+.card {
+  height: auto;
+  overflow: hidden;
+  width: 260px;
+  background-color: whitesmoke;
+  border: black;
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  border-radius: 15px;
+  margin-right: 3%;
+  flex-shrink: 0;
+}
+
+.card img {
+  object-fit: cover;
   width: 100%;
-  margin: 15px auto;
+  height: 40%;
+  border-radius: 10%;
 }
 
-#grid-container::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.grid {
-  width: 20%;
-  float: left;
-  margin-left: 50px;
-  background-color: lightgrey;
-  border-radius: 8px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
-}
-
-.grid > img {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.grid > h4 {
-  margin: 0px 10px;
+.card h3 {
+  font-size: 1.7vw;
   text-align: center;
 }
 
-.grid > p {
-  margin: 10px;
-  font-size: 15px;
-  text-align: justify;
-  line-height: 25px;
+p {
+  font-size: 1vw;
+}
+
+.btn {
+  background-color: orange;
+  text-align: center;
   color: white;
+  border-radius: 10%;
+  font-size: 1.5rem;
+  width: 86%;
+  margin-left: 7%;
+  height: 30px;
+  font-size: 22px;
+  margin-top: 50px;
 }
 
-.grid > a {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  color: #fff;
-  background-color: red;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 8px;
-}
-
-h1 {
-  color: black;
-  font-size: 40px;
-  text-align: center;
-  padding: 25px 0px;
-}
-
-.grid > a:hover {
+.btn:hover {
   background-color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* -------Footer Section ------- */
@@ -329,7 +326,7 @@ h1 {
   }
 
   .banner {
-    background-image: url(https://imgur.com/qIxEnMl.jpg);
+    background-image: url(../assets/Assignment8\ banner1.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -389,13 +386,13 @@ h1 {
     line-height: 28px;
   }
 
-  #right-side {
+  .right-side {
     width: 48%;
     height: 550px;
     float: right;
   }
 
-  .artical {
+  .article {
     height: 31%;
     margin-bottom: 20px;
     background-color: chocolate;
@@ -407,19 +404,19 @@ h1 {
     overflow: hidden;
   }
 
-  #p1 {
+  #project1 {
     background-image: url(https://imgur.com/JyMz0CR.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  #p2 {
+  #project2 {
     background-image: url(https://imgur.com/GFLWoXM.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  #p3 {
+  #project3 {
     background-image: url(https://imgur.com/uzmZqZA.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -602,12 +599,12 @@ h1 {
     line-height: 28px;
   }
 
-  #right-side {
+  .right-side {
     width: 100%;
     height: 400px;
   }
 
-  .artical {
+  .article {
     height: 31%;
     margin-bottom: 20px;
     background-color: chocolate;
@@ -619,19 +616,19 @@ h1 {
     overflow: hidden;
   }
 
-  #p1 {
+  #project1 {
     background-image: url(https://imgur.com/JyMz0CR.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  #p2 {
+  #project2 {
     background-image: url(https://imgur.com/GFLWoXM.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  #p3 {
+  #project3 {
     background-image: url(https://imgur.com/uzmZqZA.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -785,12 +782,12 @@ h1 {
       line-height: 28px;
     }
 
-    #right-side {
+    .right-side {
       width: 100%;
       height: 400px;
     }
 
-    .artical {
+    .article {
       box-sizing: border-box;
       height: 31%;
       margin-bottom: 20px;
@@ -802,19 +799,19 @@ h1 {
       overflow: hidden;
     }
 
-    #p1 {
+    #project1 {
       background-image: url(https://imgur.com/JyMz0CR.jpg);
       background-size: cover;
       background-repeat: no-repeat;
     }
 
-    #p2 {
+    #project2 {
       background-image: url(https://imgur.com/GFLWoXM.jpeg);
       background-size: cover;
       background-repeat: no-repeat;
     }
 
-    #p3 {
+    #project3 {
       background-image: url(https://imgur.com/uzmZqZA.jpg);
       background-size: cover;
       background-repeat: no-repeat;
