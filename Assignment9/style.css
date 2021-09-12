@@ -16,7 +16,7 @@ html {
   scroll-behavior: smooth;
 }
 
-#container {
+.container {
   width: 100%;
   max-width: 1200px;
   margin: auto;
@@ -291,7 +291,7 @@ h1 {
     scroll-behavior: smooth;
   }
 
-  #container {
+  .container {
     width: 100%;
   }
 
@@ -699,7 +699,7 @@ h1 {
   @media (max-width: 625px) {
     /* Set container to min-width of 320px */
 
-    #container {
+    .container {
       min-width: 320px;
     }
 
