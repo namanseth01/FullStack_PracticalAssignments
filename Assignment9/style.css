@@ -434,55 +434,11 @@ a {
     clear: both;
   }
 
-  .grid {
-    width: 40%;
-    float: left;
-    margin-left: 65px;
-    margin-bottom: 20px;
-    background-color: lightgrey;
-    border-radius: 8px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
-  }
-
-  .grid > img {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 20px;
-  }
-
-  .grid > h4 {
-    margin: 0px 10px;
-    text-align: center;
-  }
-
-  .grid > p {
-    margin: 10px;
-    font-size: 20px;
-    text-align: justify;
-    line-height: 30px;
-    color: white;
-  }
-
-  .grid > a {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    color: #fff;
-    background-color: red;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 8px;
-  }
-
   h1 {
     color: black;
     font-size: 40px;
     text-align: center;
     padding: 25px 0px;
-  }
-
-  .grid > a:hover {
-    background-color: blue;
   }
 
   /* -------Footer Section ------- */
@@ -645,45 +601,6 @@ a {
     clear: both;
   }
 
-  .grid {
-    width: 40%;
-    float: left;
-    margin-left: 50px;
-    background-color: lightgrey;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
-  }
-
-  .grid > img {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-  .grid > h4 {
-    margin: 0px 10px;
-    text-align: center;
-  }
-
-  .grid > p {
-    margin: 10px;
-    font-size: 15px;
-    text-align: justify;
-    line-height: 25px;
-    color: white;
-  }
-
-  .grid > a {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    color: #fff;
-    background-color: red;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 8px;
-  }
-
   h1 {
     color: black;
     font-size: 40px;
@@ -820,46 +737,6 @@ a {
     #grid-container {
       width: 100%;
       box-sizing: border-box;
-    }
-
-    .grid {
-      margin-left: 20px;
-      width: 90%;
-      background-color: lightgrey;
-      border-radius: 8px;
-      margin-bottom: 20px;
-      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
-      max-height: 500px;
-    }
-
-    .grid > img {
-      width: 100%;
-      margin-bottom: 10px;
-      padding: 20px;
-    }
-
-    .grid > h4 {
-      margin: 0px 10px;
-      text-align: center;
-    }
-
-    .grid > p {
-      margin: 10px;
-      font-size: 15px;
-      text-align: justify;
-      line-height: 25px;
-      color: white;
-    }
-
-    .grid > a {
-      display: block;
-      margin: 0 auto;
-      text-align: center;
-      color: #fff;
-      background-color: red;
-      text-decoration: none;
-      padding: 10px;
-      border-radius: 8px;
     }
 
     h1 {
