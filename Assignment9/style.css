@@ -5,12 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 
-    --Resolve Position Fixed Issue-- 
-                    & 
-      ----------Smooth Scroll ------ 
-    */
-
 html {
   scroll-padding-top: 70px;
   scroll-behavior: smooth;
@@ -22,8 +16,6 @@ html {
   margin: auto;
 }
 
-/* ------Header Container-------- */
-
 .header {
   background-color: grey;
   width: 100%;
@@ -34,7 +26,6 @@ html {
   height: 70px;
 }
 
-/* Navigation Menu  */
 .menu {
   list-style: none;
   float: right;
@@ -62,8 +53,7 @@ html {
 }
 
 .show-btn,
-.hide-btn,
-#chk {
+.hide-btn {
   font-size: 30px;
   line-height: 70px;
   color: white;
@@ -71,8 +61,6 @@ html {
   float: right;
   padding-right: 20px;
 }
-
-/* ------------------Banner ------------- */
 
 .banner {
   width: 100%;
@@ -94,8 +82,6 @@ html {
   margin: 20px 20px;
   color: #fff;
 }
-
-/* ------- Team Members ----- */
 
 #circle-container {
   width: 100%;
@@ -121,7 +107,6 @@ html {
   font-size: 30px;
 }
 
-/* -------------About Us-------------- */
 .section::after {
   content: "";
   display: block;
@@ -136,12 +121,12 @@ html {
   color: #fff;
 }
 
-#left-p > h2 {
+#left-p h2 {
   text-align: left;
   margin: 10px 5px;
 }
 
-#left-p > p {
+#left-p p {
   font-size: 20px;
   padding: 10px;
   text-align: justify;
@@ -184,7 +169,6 @@ html {
   background-repeat: no-repeat;
 }
 
-/* --------- Technologies Used------------ */
 .card {
   height: auto;
   overflow: hidden;
@@ -242,21 +226,17 @@ a {
   flex-wrap: wrap;
 }
 
-/* -------Footer Section ------- */
-#footer {
+.footer {
   background-color: plum;
   height: 100px;
 }
 
-#footer > p {
+.footer > p {
   font-size: 16px;
   color: black;
   text-align: center;
   padding: 20px;
 }
-
-/* 1. First Break-point */
-/* 801px - 1199px */
 
 @media (min-width: 801px) and (max-width: 1199px) {
   .menu {
@@ -293,8 +273,7 @@ a {
   }
 
   .show-btn,
-  .hide-btn,
-  #chk {
+  .hide-btn {
     font-size: 30px;
     line-height: 70px;
     color: white;
@@ -303,8 +282,6 @@ a {
     padding-right: 20px;
   }
 
-  /* ------Header Container-------- */
-
   .header {
     width: 100%;
     background-color: grey;
@@ -312,8 +289,6 @@ a {
     top: 0;
     height: 70px;
   }
-
-  /* ------------------Banner ------------- */
 
   .banner {
     width: 100%;
@@ -336,8 +311,6 @@ a {
     color: #fff;
   }
 
-  /* ------- Team Members ----- */
-
   #circle-container {
     width: 100%;
   }
@@ -357,8 +330,6 @@ a {
     margin-left: 15%;
     margin-bottom: 20px;
   }
-
-  /* -------------About Us-------------- */
 
   .section::after {
     content: "";
@@ -422,7 +393,6 @@ a {
     background-repeat: no-repeat;
   }
 
-  /* --------- Technologies Used------------ */
   #grid-container {
     width: 100%;
     margin: 15px auto;
@@ -441,21 +411,18 @@ a {
     padding: 25px 0px;
   }
 
-  /* -------Footer Section ------- */
-  #footer {
+  .footer {
     background-color: plum;
     height: 100px;
   }
 
-  #footer > p {
+  .footer p {
     font-size: 16px;
     color: black;
     text-align: center;
     padding: 20px;
   }
 }
-
-/* 2. Second Break-point */
 
 @media (max-width: 800px) {
   .header {
@@ -608,11 +575,7 @@ a {
     padding: 25px 0px;
   }
 
-  /* 3. Third Break-point */
-
   @media (max-width: 625px) {
-    /* Set container to min-width of 320px */
-
     .container {
       min-width: 320px;
     }
