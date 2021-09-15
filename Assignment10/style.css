@@ -211,16 +211,17 @@ a i {
     z-index: -100;
   }
 
-  #chk:checked ~ .side-bar {
+  #bars:checked ~ .side-bar {
     left: 0;
   }
-  #chk:checked ~ .show-btn {
+
+  #bars:checked ~ .show-btn {
     opacity: 0;
   }
-  #chk:checked ~ .hide-btn {
+  #bars:checked ~ .hide-btn {
     opacity: 1;
   }
-  #chk:checked ~ .content {
+  #bars:checked ~ .content {
     width: 80%;
   }
 }
