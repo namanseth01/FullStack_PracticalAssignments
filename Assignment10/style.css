@@ -218,9 +218,11 @@ a i {
   #bars:checked ~ #show {
     opacity: 0;
   }
+
   #bars:checked ~ #hide {
     opacity: 1;
   }
+
   #bars:checked ~ .content-window {
     width: 80%;
   }
