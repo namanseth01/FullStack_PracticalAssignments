@@ -104,6 +104,13 @@ a i {
   opacity: 1;
 }
 
-#bars:checked ~ .main-content {
+#bars:checked ~ .content-window {
   width: 80%;
+}
+
+.content-window {
+  float: right;
+  width: 100%;
+  transition: 0.7s;
+  padding: 20px;
 }
