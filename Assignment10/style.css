@@ -66,3 +66,9 @@ ul li a:hover i {
   background-color: white;
   color: black;
 }
+
+a i {
+  font-size: 18px;
+  color: white;
+  margin-right: 20px;
+}
