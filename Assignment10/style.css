@@ -92,3 +92,18 @@ a i {
   visibility: hidden;
   z-index: -100;
 }
+
+#bars:checked ~ .side-menu {
+  left: 0;
+}
+#bars:checked ~ #show {
+  opacity: 0;
+}
+
+#bars:checked ~ #hide-btn {
+  opacity: 1;
+}
+
+#bars:checked ~ .main-content {
+  width: 80%;
+}
