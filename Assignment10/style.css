@@ -189,4 +189,19 @@ a i {
     text-transform: uppercase;
     padding: 20px;
   }
+
+  #show,
+  #hide {
+    position: fixed;
+    font-size: 30px;
+    color: white;
+    line-height: 70px;
+    transition: 0.4s;
+    top: 0px;
+    left: 20px;
+  }
+
+  #hide {
+    opacity: 0;
+  }
 }
