@@ -72,3 +72,16 @@ a i {
   color: white;
   margin-right: 20px;
 }
+
+.show,
+.hide {
+  position: fixed;
+  font-size: 30px;
+  color: white;
+  transition: 0.4s;
+  top: 20px;
+  left: 20px;
+}
+.hide-btn {
+  opacity: 0;
+}
