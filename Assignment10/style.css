@@ -211,17 +211,17 @@ a i {
     z-index: -100;
   }
 
-  #bars:checked ~ .side-bar {
+  #bars:checked ~ .side-menu {
     left: 0;
   }
 
-  #bars:checked ~ .show-btn {
+  #bars:checked ~ #show {
     opacity: 0;
   }
-  #bars:checked ~ .hide-btn {
+  #bars:checked ~ #hide {
     opacity: 1;
   }
-  #bars:checked ~ .content {
+  #bars:checked ~ .content-window {
     width: 80%;
   }
 }
