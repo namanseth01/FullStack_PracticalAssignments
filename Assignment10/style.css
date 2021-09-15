@@ -173,4 +173,20 @@ a i {
     margin-top: 70px;
     transition: 0.7s;
   }
+
+  ul {
+    list-style: none;
+  }
+
+  ul li {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  }
+
+  ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+  }
 }
