@@ -86,3 +86,9 @@ a i {
 #hide-btn {
   opacity: 0;
 }
+
+#bars {
+  position: absolute;
+  visibility: hidden;
+  z-index: -100;
+}
