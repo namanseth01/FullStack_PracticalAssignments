@@ -204,4 +204,10 @@ a i {
   #hide {
     opacity: 0;
   }
+
+  #bars {
+    position: absolute;
+    visibility: hidden;
+    z-index: -100;
+  }
 }
