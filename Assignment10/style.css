@@ -26,3 +26,14 @@
   text-align: center;
   color: white;
 }
+
+.side-menu {
+  width: 20%;
+  height: 100vh;
+  background-color: #353b48;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  margin-top: 70px;
+  transition: 0.7s;
+}
