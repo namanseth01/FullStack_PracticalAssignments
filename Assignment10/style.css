@@ -126,3 +126,18 @@ a i {
 .content-window p {
   text-align: justify;
 }
+
+.social-media {
+  margin-top: 180px;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-media i {
+  padding: 10px 0;
+  font-size: 30px;
+  color: white;
+  float: left;
+}
