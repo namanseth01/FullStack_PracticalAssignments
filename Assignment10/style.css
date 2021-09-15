@@ -114,3 +114,15 @@ a i {
   transition: 0.7s;
   padding: 20px;
 }
+
+.content-window img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.content-window p {
+  text-align: justify;
+}
