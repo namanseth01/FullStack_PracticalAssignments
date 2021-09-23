@@ -305,4 +305,35 @@ hr {
   .section3 ul li:nth-child(5):hover {
     background-color: rgb(226, 81, 105);
   }
+
+  .section4 {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .section4 p {
+    color: grey;
+    position: relative;
+  }
+
+  .section4 p::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    transition: all 0.3s;
+  }
+
+  .section4 p:hover::after {
+    width: 100%;
+  }
+  hr {
+    opacity: 0.2;
+  }
 }
