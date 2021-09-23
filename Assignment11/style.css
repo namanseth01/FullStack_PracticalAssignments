@@ -216,4 +216,18 @@ hr {
   .section1 ul li {
     padding: 5px;
   }
+
+  a {
+    text-decoration: none;
+    color: gray;
+  }
+  a:hover {
+    color: orange;
+  }
+
+  i {
+    color: grey;
+    font-size: 20px;
+    margin-right: 10px;
+  }
 }
