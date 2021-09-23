@@ -89,3 +89,49 @@ i {
 .section2 a:hover {
   background-color: orange;
 }
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+}
+.section3 ul {
+  list-style: none;
+}
+
+.section3 ul li {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+  background-color: rgb(56, 55, 55);
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.section3 ul li i {
+  color: white;
+  font-size: 24px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.section3 ul li:nth-child(1):hover {
+  background-color: rgb(51, 51, 172);
+}
+
+.section3 ul li:nth-child(2):hover {
+  background-color: skyblue;
+}
+
+.section3 ul li:nth-child(3):hover {
+  background-color: orangered;
+}
+
+.section3 ul li:nth-child(4):hover {
+  background-color: rgb(9, 104, 182);
+}
+
+.section3 ul li:nth-child(5):hover {
+  background-color: rgb(223, 91, 113);
+}
