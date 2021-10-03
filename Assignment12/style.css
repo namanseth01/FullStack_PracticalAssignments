@@ -42,6 +42,10 @@ a {
   color: black;
 }
 
+i {
+  color: grey;
+}
+
 i:hover {
   color: blue;
 }
@@ -70,8 +74,4 @@ p {
   height: 50px;
   width: 100%;
   line-height: 50px;
-}
-
-i {
-  color: grey;
 }
