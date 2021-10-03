@@ -45,3 +45,13 @@ a {
 i:hover {
   color: blue;
 }
+
+.head {
+  color: green;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  vertical-align: middle;
+}
