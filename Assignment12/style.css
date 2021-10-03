@@ -29,3 +29,10 @@ td {
 .sub {
   color: green;
 }
+
+.custom-table td,
+.custom-table th {
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom: 1px solid #dddddd;
+}
