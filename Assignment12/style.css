@@ -71,3 +71,7 @@ p {
   width: 100%;
   line-height: 50px;
 }
+
+i {
+  color: grey;
+}
