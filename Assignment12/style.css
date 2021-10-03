@@ -27,7 +27,7 @@ td {
 }
 
 .sub {
-  color: green;
+  color: darkgreen;
 }
 
 .custom-table td,
@@ -51,7 +51,7 @@ i:hover {
 }
 
 .head {
-  color: green;
+  color: pink;
   text-align: center;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -70,7 +70,7 @@ p {
   font-size: 30px;
   color: white;
   font-weight: bold;
-  background-color: #008080;
+  background-color: rgb(199, 36, 63);
   height: 50px;
   width: 100%;
   line-height: 50px;
