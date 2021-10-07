@@ -76,5 +76,5 @@ thead tr:nth-child(odd) {
 }
 
 .btn:hover {
-  background-color: blue;
+  background-color: red;
 }
