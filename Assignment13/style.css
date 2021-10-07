@@ -24,7 +24,7 @@ caption {
 thead {
   background-image: linear-gradient(#150050, #506d84);
   font-size: 32px;
-  color: white;
+  color: rgb(10, 8, 141);
 }
 td {
   width: 180px;
