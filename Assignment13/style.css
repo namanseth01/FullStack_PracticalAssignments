@@ -47,7 +47,7 @@ tr:nth-child(odd) {
 }
 
 tbody tr:nth-child(even) {
-  background: linear-gradient(90deg, rgb(183, 196, 233), white);
+  background: linear-gradient(90deg, skyblue, rgb(235, 131, 148));
 }
 
 thead tr:nth-child(odd) {
