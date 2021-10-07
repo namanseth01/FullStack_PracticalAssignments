@@ -56,3 +56,19 @@ thead tr:nth-child(odd) {
 .fa-times {
   color: red;
 }
+
+.btn {
+  background-color: orange;
+  text-align: center;
+  color: white;
+  border-radius: 10%;
+  font-size: 1.5rem;
+  width: 86%;
+  margin-left: 7%;
+  height: 30px;
+  font-size: 22px;
+}
+
+.btn:hover {
+  background-color: blue;
+}
