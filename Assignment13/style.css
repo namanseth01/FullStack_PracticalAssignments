@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  border: 2px solid;
+  border-top: transparent;
+  border-collapse: collapse;
+  margin: 50px auto;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+caption {
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  padding: 12px;
+}
+
+thead {
+  background-image: linear-gradient(#150050, #506d84);
+  font-size: 32px;
+  color: white;
+}
+td {
+  width: 180px;
+  padding: 5px;
+  height: 30px;
+}
+
+tr {
+  width: 700px;
+}
+
+tr:nth-child(odd) {
+  background-color: aquamarine;
+}
