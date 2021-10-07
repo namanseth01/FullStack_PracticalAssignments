@@ -48,3 +48,11 @@ tbody tr:nth-child(even) {
 thead tr:nth-child(odd) {
   background-color: rgb(183, 196, 233);
 }
+
+.fa-check {
+  color: green;
+}
+
+.fa-times {
+  color: red;
+}
