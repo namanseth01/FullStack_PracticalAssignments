@@ -26,11 +26,16 @@ thead {
   font-size: 32px;
   color: rgb(10, 8, 141);
 }
+
 td {
   width: 180px;
   padding: 5px;
   height: 30px;
   border-right: 2px solid white;
+}
+
+tr td :nth-child(4) {
+  border-right: none;
 }
 
 tr {
@@ -59,7 +64,7 @@ thead tr:nth-child(odd) {
 }
 
 .btn {
-  background-color: orange;
+  background-color: rgb(10, 8, 141);
   text-align: center;
   color: white;
   border-radius: 10%;
