@@ -2,7 +2,7 @@ body {
   width: 100vw;
   height: 100vh;
   padding: auto;
-  background-color: cornflowerblue;
+  background-image: linear-gradient(black, white);
 }
 .container {
   margin: auto;
