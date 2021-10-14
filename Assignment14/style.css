@@ -8,4 +8,16 @@
   background-image: linear-gradient(black, white);
   background-attachment: fixed;
   background-size: 100% 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  color: whitesmoke;
+  /* height: 100vh; */
+  text-align: center;
+  padding-top: 20px;
+  font-size: 40px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
