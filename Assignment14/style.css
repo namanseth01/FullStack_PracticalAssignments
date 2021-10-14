@@ -6,4 +6,6 @@
 
 .container {
   background-image: linear-gradient(black, white);
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
