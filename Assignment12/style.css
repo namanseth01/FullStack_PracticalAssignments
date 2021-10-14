@@ -19,6 +19,7 @@ body {
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid rgb(199, 36, 63);
+  border-bottom: 16px rgb(199, 36, 63);
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
