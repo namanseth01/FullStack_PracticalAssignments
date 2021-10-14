@@ -16,3 +16,18 @@ body {
   justify-content: center;
   width: 100%;
 }
+
+h1 {
+  text-transform: uppercase;
+  color: aliceblue;
+}
+.counter > button {
+  margin: 10px;
+  font-size: 20px;
+  padding: 5px;
+}
+h3 {
+  font-size: 30px;
+  margin: 10px;
+  padding: 5px;
+}
