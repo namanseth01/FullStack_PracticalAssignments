@@ -21,3 +21,15 @@ function increment() {
   }
   valueChange.innerHTML = count++;
 }
+
+function decrement() {
+  count--;
+  if (count === 0) {
+    var bt = document.querySelector("button");
+    bt.disabled = true;
+  } else {
+    var bt = document.querySelector("button");
+    bt.disabled = false;
+  }
+  valueChange.innerHTML = count;
+}
