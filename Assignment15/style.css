@@ -12,3 +12,19 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.container {
+  background-color: #fff;
+  width: 400px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #f7f7f7;
+}
+
+.header h2 {
+  padding: 20px;
+  text-align: center;
+}
