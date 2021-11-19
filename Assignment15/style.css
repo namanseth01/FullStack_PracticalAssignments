@@ -77,10 +77,24 @@ body {
   border-radius: 5px;
   text-align: center;
 }
+
 .form-control.success input {
   border-color: rgb(48, 207, 48);
 }
+
 .form-control.success .fa-check-circle {
   visibility: visible;
   color: rgb(48, 207, 48);
+}
+
+.form-control.error input {
+  border-color: red;
+}
+.form-control.error .fa-exclamation-circle {
+  color: red;
+  visibility: visible;
+}
+.form-control.error small {
+  visibility: visible;
+  color: red;
 }
