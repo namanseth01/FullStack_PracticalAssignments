@@ -86,7 +86,7 @@ body {
   border-color: lightgreen;
 }
 
-.form-control.success {
+.form-control.success .fa-check-circle {
   visibility: visible;
   color: lightgreen;
 }
@@ -95,7 +95,7 @@ body {
   border-color: red;
 }
 
-.form-control.error {
+.form-control.error .fa-exclamation-circle {
   color: red;
   visibility: visible;
 }
