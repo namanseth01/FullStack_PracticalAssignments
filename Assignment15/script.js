@@ -41,15 +41,15 @@ function checkInputs() {
 }
 
 function showError(input, msg) {
-  const formControl = input.parentNode;
-  formControl.className = "form-control error";
+  const formContent = input.parentNode;
+  formContent.className = "form-content error";
   const small = formControl.querySelector("small");
   small.innerHTML = msg;
 }
 
 function showSuccess(input) {
-  const formControl = input.parentNode;
-  formControl.className = "form-control success";
+  const formContent = input.parentNode;
+  formContent.className = "form-content success";
 }
 
 function isEmailValid(email1) {
