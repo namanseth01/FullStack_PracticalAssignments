@@ -83,12 +83,12 @@ body {
 }
 
 .form-control.success input {
-  border-color: rgb(48, 207, 48);
+  border-color: lightgreen;
 }
 
 .form-control.success .fa-check-circle {
   visibility: visible;
-  color: rgb(48, 207, 48);
+  color: lightgreen;
 }
 
 .form-control.error input {
