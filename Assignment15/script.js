@@ -42,3 +42,10 @@ function checkInputs() {
     showSuccess(password2);
   }
 }
+
+function showError(input, msg) {
+  const formControl = input.parentNode;
+  formControl.className = "form-control error";
+  const small = formControl.querySelector("small");
+  small.innerHTML = msg;
+}
