@@ -69,13 +69,17 @@ body {
 .form button {
   display: block;
   width: 100%;
-  background-color: rgb(238, 132, 12);
+  background-color: darkblue;
   color: white;
   padding: 10px;
   outline: none;
   border: none;
   border-radius: 5px;
   text-align: center;
+}
+
+.form button:hover {
+  background-color: orangered;
 }
 
 .form-control.success input {
