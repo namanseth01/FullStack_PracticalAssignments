@@ -110,3 +110,14 @@ p {
   width: 100%;
   line-height: 50px;
 }
+
+a {
+  color: darkblue;
+  text-decoration: underline;
+  font-size: 15.5px;
+  text-align: left;
+}
+
+a:hover {
+  color: orangered;
+}
