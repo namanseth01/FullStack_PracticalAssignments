@@ -49,3 +49,8 @@ function showError(input, msg) {
   const small = formControl.querySelector("small");
   small.innerHTML = msg;
 }
+
+function showSuccess(input) {
+  const formControl = input.parentNode;
+  formControl.className = "form-control success";
+}
