@@ -32,15 +32,18 @@ body {
 .form {
   padding: 20px 30px;
 }
+
 .form-control {
   margin-bottom: 10px;
   padding-bottom: 20px;
   position: relative;
 }
+
 .form-control label {
   display: block;
   margin-bottom: 5px;
 }
+
 .form-control input {
   display: block;
   width: 100%;
@@ -55,6 +58,7 @@ body {
   top: 40px;
   visibility: hidden;
 }
+
 .form-control small {
   position: absolute;
   left: 0;
