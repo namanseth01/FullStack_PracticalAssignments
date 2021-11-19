@@ -16,7 +16,7 @@ body {
 .container {
   background-color: #fff;
   width: 400px;
-  border-radius: 10%;
+  border-radius: 0%;
   overflow: hidden;
 }
 
@@ -33,18 +33,18 @@ body {
   padding: 20px 30px;
 }
 
-.form-content {
+.form-control {
   margin-bottom: 10px;
   padding-bottom: 20px;
   position: relative;
 }
 
-.form-content label {
+.form-control label {
   display: block;
   margin-bottom: 5px;
 }
 
-.form-content input {
+.form-control input {
   display: block;
   width: 100%;
   padding: 10px;
@@ -52,14 +52,14 @@ body {
   outline: none;
   border: 2px solid #f0f0f0;
 }
-.form-content i {
+.form-control i {
   position: absolute;
   right: 10px;
   top: 40px;
   visibility: hidden;
 }
 
-.form-content small {
+.form-control small {
   position: absolute;
   left: 0;
   margin-top: 5px;
@@ -82,25 +82,25 @@ body {
   background-color: orangered;
 }
 
-.form-content.success input {
+.form-control.success input {
   border-color: rgb(48, 207, 48);
 }
 
-.form-content.success .fa-check-circle {
+.form-control.success .fa-check-circle {
   visibility: visible;
   color: rgb(48, 207, 48);
 }
 
-.form-content.error input {
+.form-control.error input {
   border-color: red;
 }
 
-.form-content.error .fa-exclamation-circle {
+.form-control.error .fa-exclamation-circle {
   color: red;
   visibility: visible;
 }
 
-.form-content.error small {
+.form-control.error small {
   visibility: visible;
   color: red;
 }
