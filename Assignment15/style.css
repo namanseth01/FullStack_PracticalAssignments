@@ -16,7 +16,7 @@ body {
 .container {
   background-color: #fff;
   width: 400px;
-  border-radius: 5px;
+  border-radius: 10%;
   overflow: hidden;
 }
 
