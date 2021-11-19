@@ -90,10 +90,12 @@ body {
 .form-control.error input {
   border-color: red;
 }
+
 .form-control.error .fa-exclamation-circle {
   color: red;
   visibility: visible;
 }
+
 .form-control.error small {
   visibility: visible;
   color: red;
