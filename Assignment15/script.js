@@ -5,7 +5,7 @@ const password1 = document.getElementById("password1");
 const password2 = document.getElementById("password2");
 
 form.addEventListener("submit", function (e) {
-  e.preventDefault(); // data will not submit to server
+  e.preventDefault();
   checkInputs();
 });
 
