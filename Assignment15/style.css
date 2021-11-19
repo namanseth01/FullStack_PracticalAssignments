@@ -65,3 +65,22 @@ body {
   margin-top: 5px;
   visibility: hidden;
 }
+
+.form button {
+  display: block;
+  width: 100%;
+  background-color: darkslateblue;
+  color: white;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.form-control.success input {
+  border-color: rgb(48, 207, 48);
+}
+.form-control.success .fa-check-circle {
+  visibility: visible;
+  color: rgb(48, 207, 48);
+}
