@@ -43,7 +43,7 @@ function checkInputs() {
 function showError(input, msg) {
   const formContent = input.parentNode;
   formContent.className = "form-content error";
-  const small = formControl.querySelector("small");
+  const small = formContent.querySelector("small");
   small.innerHTML = msg;
 }
 
