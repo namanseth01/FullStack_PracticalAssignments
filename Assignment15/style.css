@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: darkslateblue;
+  background-color: rgb(240, 124, 57);
   font-family: "Open Sans", sans-serif;
   height: 100vh;
   display: flex;
@@ -69,7 +69,7 @@ body {
 .form button {
   display: block;
   width: 100%;
-  background-color: darkslateblue;
+  background-color: rgb(238, 132, 12);
   color: white;
   padding: 10px;
   outline: none;
