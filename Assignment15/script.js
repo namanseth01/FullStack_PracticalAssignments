@@ -54,3 +54,7 @@ function showSuccess(input) {
   const formControl = input.parentNode;
   formControl.className = "form-control success";
 }
+
+function isEmailValid(email1) {
+  return /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9]+)\.([a-zA-Z]{2,3})$/.test(email1); // email is the email value
+}
